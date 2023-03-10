@@ -13,7 +13,7 @@
 
 ## Personal Summary:
 
-   My one of the main aims, at this point, becoming professional Fronted-developer and having the opportunity to work and travel around the world.
+   My one of the main aims, at this point, becoming professional Fronted-developer and having the opportunity to work and travel around the world. And working as freelancer.
 
 ## Skills:
 
