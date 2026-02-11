@@ -1,1 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
 
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.resume-container {
+    width: 800px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+header {
+    background-color: #fff;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 0.9;
+    letter-spacing: 2px;
+}
+
+h1 span {
+    font-weight: 900;
+}
+
+.job-title {
+    margin-top: 10px;
+    letter-spacing: 3px;
+    color: #555;
+    font-size: 14px;
+}
+
+.photo-area img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    background-color: #ddd;
+}
+
+.contact-bar {
+    background-color: #1a1a1a;
+    color: white;
+    display: flex;
+    padding: 20px 40px;
+    gap: 40px;
+}
+
+.contact-item strong {
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.contact-item span {
+    font-size: 11px;
+    color: #ccc;
+}
+
+.resume-body {
+    display: flex;
+}
+
+.main-content {
+    flex: 1.5;
+    padding: 40px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #ececec;
+    padding: 40px;
+}
+
+h2 {
+    font-size: 18px;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 12px;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 15px;
+}
+
+.date {
+    font-weight: bold;
+    margin-bottom: 2px;
+    color: #333;
+}
+
+.company {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: square;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+ul li {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+
+.reference-grid {
+    display: flex;
+    gap: 20px;
+}
+
+.ref-item {
+    flex: 1;
+}
+
+.ref-title { font-weight: bold; margin-bottom: 2px; }
+.ref-name { margin-bottom: 2px; }
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 10px;
+    color: #999;
+    background: #fff;
+}
