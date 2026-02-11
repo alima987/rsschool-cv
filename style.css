@@ -10,12 +10,18 @@ body {
     display: flex;
     justify-content: center;
     padding: 20px;
+    align-items: center;
+    min-height: 100vh;
 }
 
 .resume-container {
     width: 800px;
     background-color: #fff;
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    width: 100%;
+    margin: 50px;
+    max-width: 1000px;
+    min-height: 1000px;
 }
 
 header {
@@ -30,7 +36,7 @@ header {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 53px;
     line-height: 0.9;
     letter-spacing: 2px;
 }
@@ -43,7 +49,7 @@ h1 span {
     margin-top: 10px;
     letter-spacing: 3px;
     color: #555;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .photo-area img {
@@ -64,12 +70,12 @@ h1 span {
 .contact-item strong {
     display: block;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 15px;
     margin-bottom: 5px;
 }
 
 .contact-item span {
-    font-size: 11px;
+    font-size: 13px;
     color: #ccc;
 }
 
@@ -89,7 +95,7 @@ h1 span {
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 20px;
     border-bottom: 2px solid #ddd;
     margin-bottom: 1rem;
     padding-bottom: 5px;
@@ -97,7 +103,7 @@ h2 {
 }
 
 p {
-    font-size: 12px;
+    font-size: 15px;
     line-height: 1.6;
     color: #444;
     margin-bottom: 1rem;
@@ -121,7 +127,7 @@ ul {
 }
 
 ul li {
-    font-size: 12px;
+    font-size: 15px;
     margin-bottom: 8px;
 }
 
@@ -140,7 +146,7 @@ ul li {
 .footer {
     text-align: center;
     padding: 20px;
-    font-size: 10px;
+    font-size: 12px;
     color: #999;
     background: #fff;
     display: flex;
@@ -168,4 +174,78 @@ ul li {
   text-decoration: none;
   color: #000000;
   font-weight: 600;
+}
+
+@media (min-width: 1280px) {
+   .resume-container {
+    
+   } 
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+    .resume-container {
+    
+    } 
+    .header-content {
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: column-reverse;
+      gap: 1rem;
+    }
+    
+}
+@media (max-width: 767px) {
+    .resume-container {
+      margin: 10px;
+    } 
+    .header-content {
+      flex-wrap: wrap;
+      justify-content: center;
+      flex-direction: column-reverse;
+      gap: 1rem;
+      padding: 20px;
+    }
+    .photo-area img {
+      width: 200px;
+      height: 200px;
+    }
+    h1 {
+      font-size: 43px;
+    }
+    .job-title {
+      font-size: 14px;
+    }
+    .contact-item strong, p, ul li  {
+        font-size: 13px;
+    }
+    .contact-item span {
+        font-size: 11px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+    .footer {
+        font-size: 10px;
+    }
+    .resume-body {
+        flex-direction: column;
+        width: 100%
+    }
+    .main-content {
+        padding: 20px;
+        flex: none;
+    }
+    .sidebar {
+        flex: none;
+        background-color: transparent;
+        padding: 20px;
+    }
+    .contact-bar {
+        gap:20px;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+    .reference-grid {
+      overflow-x: auto;
+    }
 }
