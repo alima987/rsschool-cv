@@ -47,8 +47,8 @@ h1 span {
 }
 
 .photo-area img {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     object-fit: cover;
     background-color: #ddd;
 }
@@ -91,7 +91,7 @@ h1 span {
 h2 {
     font-size: 18px;
     border-bottom: 2px solid #ddd;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
     padding-bottom: 5px;
     letter-spacing: 2px;
 }
@@ -100,7 +100,7 @@ p {
     font-size: 12px;
     line-height: 1.6;
     color: #444;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 .date {
@@ -137,10 +137,35 @@ ul li {
 .ref-title { font-weight: bold; margin-bottom: 2px; }
 .ref-name { margin-bottom: 2px; }
 
-footer {
+.footer {
     text-align: center;
     padding: 20px;
     font-size: 10px;
     color: #999;
     background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+   width: 100px; 
+}
+.logo:hover {
+    width: 110px;
+}
+.github-link {
+    margin-bottom: 0;
+}
+.github-link a {
+  text-decoration: none;
+  color: #444;
+}
+.github-link a:hover, .skill a:hover {
+    color: #0099ff;
+}
+.skill a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
 }
