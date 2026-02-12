@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
+</head>
+<body>
+  <div class="resume-container">
+      <header>
+          <div class="header-content">
+              <div class="title-area">
+                  <h1>Bassanova <br><span>Alima</span></h1>
+                  <p class="job-title">Front-end Developer</p>
+              </div>
+              <div class="photo-area">
+                  <img src="./assets/profile-photo.jpg" alt="Profile">
+              </div>
+          </div>
+          <nav class="contact-bar">
+              <div class="contact-item">
+                  <strong>Phone</strong>
+                  <span>87787297836</span>
+              </div>
+              <div class="contact-item">
+                  <strong>Email</strong>
+                  <span>alima1996b@gmail.com</span>
+              </div>
+              <div class="contact-item">
+                  <strong>Location</strong>
+                  <span>Aktau, Kazakhstan</span>
+              </div>
+          </nav>
+      </header>
+      <main class="resume-body">
+          
+          <div class="main-content">
+              <article>
+                  <h2>ABOUT</h2>
+                  <p>Currently pursuing a career as a Frontend Developer, while leveraging a strong foundation in web development gained through hands-on experience and certifications. Proficient in Vue, React, Next.js, and Tailwind CSS, with a focus on creating adaptive, responsive interfaces and integrating third-party APIs. 
+
+Prior freelance and internship roles provided experience in collaborative environments, refining skills in Vue-based component development, debugging, and responsive design. Committed to delivering high-quality solutions that align with organizational goals while fostering a culture of teamwork and innovation.</p>
+              </article>
+              <article>
+                  <h2>EXPERIENCE</h2>
+                  <div class="exp-item">
+                    <ul class="skills-list">
+                      <li class="skill">
+                        <a href="https://movie-tv-app-beta.vercel.app/movies" target="_blank">Movie and TV App</a> -
+                        Movie and TV App is a React-based application that allows users to explore and discover information about movies and TV shows. It utilizes the TMDB API to fetch data on both movies and TV shows, offering a variety of features such as search capabilities, detailed views, trending titles, upcoming releases, top-rated content, and cast information.
+                      </li>
+                      <li class="skill">
+                        <a href="https://alima987-memory-card-game.netlify.app/" target="_blank">Memory Card Game</a> -
+                         The game challenges players to match pairs of cards from a shuffled deck, enhancing memory and concentration skills.
+                      </li>
+                      <li class="skill">
+                        <a href="https://alima987-hangman.netlify.app/" target="_blank">Hangman</a> -
+                        Hangman is a classic word game in which you must find the correct answer by guessing letters one at a time.
+                      </li>
+                    </ul>
+                  </div>
+              </article>
+              <article>
+                  <h2>CODE EXAMPLE</h2>
+                  <div class="reference-grid">
+                      <div class="ref-item">
+                          <p class="ref-title">Split Strings</p>
+                          <pre><code>
+  function solution(str) {
+    return str.split('').map((char, i, arr) => (i % 2 === 0) 
+    ? char + (arr[i + 1] || "_") : null)
+    .filter(x => x !== null)   
+  }
+                          </code></pre>
+                      </div>
+                  </div>
+              </article>
+            </div>
+          <aside class="sidebar">
+              <section>
+                  <h2>EDUCATION</h2>
+                  <div class="edu-item">
+                      <p class="date">2025</p>
+                      <p>NodeJS <br> THE ROLLING SCOPES SCHOOL</p>
+                  </div>
+                  <div class="edu-item">
+                      <p class="date">2023 - 2024</p>
+                      <p>React <br> THE ROLLING SCOPES SCHOOL</p>
+                  </div>
+                  <div class="edu-item">
+                      <p class="date">2022 - 2023</p>
+                      <p>JavaScript/Front-end <br> THE ROLLING SCOPES SCHOOL</p>
+                  </div>
+                  <div class="edu-item">
+                      <p class="date">2021 - 2023</p>
+                      <p>Accounting and Auditing <br> INTERNATIONAL UNIVERSITY OF TRANSPORT AND HUMANITIES</p>
+                  </div>
+              </section>
+              <section>
+                  <h2>LANGUAGE</h2>
+                  <ul>
+                      <li>Russian - Native</li>
+                      <li>Kazakh - Native</li>
+                      <li>English - B2</li>
+                      <li>Spanish - A1</li>
+                  </ul>
+              </section>
+              <section>
+                  <h2>SKILLS</h2>
+                  <ul>
+                      <li>JavaScript</li>
+                      <li>TypeScript</li>
+                      <li>HTML</li>
+                      <li>CSS, Tailwind CSS</li>
+                      <li>Vue</li>
+                      <li>React</li>
+                      <li>Next.js</li>
+                      <li>Node.js</li>
+                      <li>Figma</li>
+                  </ul>
+              </section>
+          </aside>
+      </main>
+      <footer class="footer">
+          <p class="github-link">&copy; 2026 <a href="https://github.com/alima987" target="_blank" >Bassanova Alima</a> CV.</p>
+          <div class="logo">
+            <a href="https://rs.school/courses/short-track" target="_blank"><img src="./assets/rs-school-logo.svg" alt="RSSCHOOL Logo"></a>
+          </div>
+      </footer>
+  </div>
+</body>
+</html>
